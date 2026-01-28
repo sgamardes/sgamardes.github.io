@@ -67,28 +67,28 @@ cursor: url("Photos/Index/curseur.cur"),auto;
 
 
 
-/*texte normal justifié*/
+/*texte normal justifiï¿½*/
 
 .texte1
 {
 font-family: "Times New Roman";	/*police*/
 font-size : 18px; 				/*taille*/
 color : #00FF00;					/*vert*/
-text-align : justify;			/*justifié*/
+text-align : justify;			/*justifiï¿½*/
 margin-left : 80px;				/*tabulation*/
 margin-right : 80px;			/*tabulation*/
 white-space : normal;			/*passage a la ligne auto*/
 clear : both;
 }
 
-/*texte 2 normal justifié*/
+/*texte 2 normal justifiï¿½*/
 
 .texte2
 {
 font-family: "Times New Roman";	/*police*/
 font-size : 18px; 				/*taille*/
 color : #808080;					/*gris*/
-text-align : justify;			/*justifié*/
+text-align : justify;			/*justifiï¿½*/
 margin-left : 80px;				/*tabulation*/
 margin-right : 80px;			/*tabulation*/
 white-space : normal;			/*passage a la ligne auto*/
@@ -96,7 +96,7 @@ clear : both;
 }
 
 
-/*images alignées à gauche*/
+/*images alignï¿½es ï¿½ gauche*/
 
 .imagegauche
 {
@@ -108,7 +108,7 @@ padding-bottom : 10px;
 }		
 
 
-/*images alignées à droite*/
+/*images alignï¿½es ï¿½ droite*/
 
 .imagedroite
 {
@@ -120,7 +120,7 @@ padding-bottom : 10px;
 }		
 
 
-/*images centrées*/
+/*images centrï¿½es*/
 
 .imagecentre
 {
