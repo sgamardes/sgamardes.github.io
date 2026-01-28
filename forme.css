@@ -1,0 +1,206 @@
+html
+{
+cursor: url("Photos/Index/curseur.cur"),auto;
+}
+
+
+.bloc
+{
+min-height : 83%;
+}
+
+/*fond pour toutes les pages*/
+
+body
+{
+background-image:url("Photos/Index/fond.jpg");
+background-repeat : no-repeat;
+background-position : top center;
+background-attachment : fixed;		/*fond fixe*/
+background-color : black;			/*noir*/
+width: 1100px;
+margin: auto;
+height : 95%;
+}
+
+/*texte dans l'index*/
+
+.texteIndex					/*liens*/
+{
+font-family: "transrobotics";	/*police*/
+font-size : 25px; 				/*taille*/
+font-weight : normal;				/*normal*/
+line-height : 1.5em;			/*interligne*/
+text-decoration : none;	/*none*/
+color : #00FF00;				/*vert*/
+text-align : left;			/*gauche*/
+cursor: url("Photos/Index/curseur.cur"),auto;
+}
+
+.texteIndexCentreDefile			
+{
+font-family: "transrobotics";	/*police*/
+font-size : 25px; 				/*taille*/
+font-weight : normal;				/*normal*/
+line-height : 1.5em;			/*interligne*/
+text-decoration : none;	/*none*/
+color : #00FF00;				/*vert*/
+text-align : center;			/*centre*/
+cursor: url("Photos/Index/curseur.cur"),auto;
+position: relative;
+}
+
+/*texte 2 dans l'index*/
+
+.texteIndex2					/*liens*/
+{
+font-family: "transrobotics";	/*police*/
+font-size : 22px; 				/*taille*/
+font-weight : normal;				/*normal*/
+line-height : 1.5em;			/*interligne*/
+text-decoration : none;	/*none*/
+color : #808080;				/*gris*/
+text-align : left;			/*gauche*/
+margin-left : 0px;			/*tabulation*/
+cursor: url("Photos/Index/curseur.cur"),auto;
+}
+
+
+
+/*texte normal justifié*/
+
+.texte1
+{
+font-family: "Times New Roman";	/*police*/
+font-size : 18px; 				/*taille*/
+color : #00FF00;					/*vert*/
+text-align : justify;			/*justifié*/
+margin-left : 80px;				/*tabulation*/
+margin-right : 80px;			/*tabulation*/
+white-space : normal;			/*passage a la ligne auto*/
+clear : both;
+}
+
+/*texte 2 normal justifié*/
+
+.texte2
+{
+font-family: "Times New Roman";	/*police*/
+font-size : 18px; 				/*taille*/
+color : #808080;					/*gris*/
+text-align : justify;			/*justifié*/
+margin-left : 80px;				/*tabulation*/
+margin-right : 80px;			/*tabulation*/
+white-space : normal;			/*passage a la ligne auto*/
+clear : both;
+}
+
+
+/*images alignées à gauche*/
+
+.imagegauche
+{
+margin-top : 10px;
+margin-bottom : 10px;
+float : left;
+margin-left : 3%;
+padding-bottom : 10px;
+}		
+
+
+/*images alignées à droite*/
+
+.imagedroite
+{
+margin-top : 10px;
+margin-bottom : 10px;
+float : right;
+margin-right : 3%;
+padding-bottom : 10px;
+}		
+
+
+/*images centrées*/
+
+.imagecentre
+{
+display: block; 
+padding-top : 10px;
+padding-bottom : 10px;
+float : none;
+text-align : center;
+margin : auto;
+clear : both;
+}	
+
+/*images diaporama*/
+#parent{
+position: relative;
+margin-right : 3%;
+}
+.imagediapo
+{
+position: absolute;
+right: 0px;
+top: 0px;
+}		
+	
+
+/*texte pied de page*/
+
+.textepied
+{
+font-family: "Times New Roman";	/*police*/
+font-size : 16px; 				/*taille*/
+font-weight : bold;				/*gras*/
+color : #00FF00;					/*vert*/
+text-decoration : none;			/*non souligne*/
+cursor: url("Photos/Index/curseur.cur"),auto;
+}
+
+/*liens pied de page*/
+
+.lienspied
+{
+font-family: "Times New Roman";	/*police*/
+font-size : 16px; 				/*taille*/
+font-weight : bold;				/*gras*/
+color : #00FF00;					/*vert*/
+text-decoration : none;			/*non souligne*/
+cursor: url("Photos/Index/curseur.cur"),auto;
+}
+
+
+/*bloc pied de page*/
+
+.piedpage
+{
+clear : both;
+width : 800px;
+text-align : center;
+margin : auto;
+border-top : 1px green solid;
+padding-top : 15px;
+padding-bottom : 15px;
+margin-top : 50px;
+}
+
+/*liens image bandeau*/
+
+.liensbandeau
+{
+cursor: url("Photos/Index/curseur.cur"),auto;
+}
+
+a:hover
+{
+color : green;
+}
+
+@font-face {
+    font-family: "transrobotics";
+	src: url('sf_transrobotics/SF TransRobotics.eot');
+	src: url('sf_transrobotics/SF TransRobotics.eot?') format('eot'),
+		 url('sf_transrobotics/SF TransRobotics.woff') format('woff'),
+		 url('sf_transrobotics/SF TransRobotics.ttf') format('truetype');
+}
